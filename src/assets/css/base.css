@@ -1,0 +1,38 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  color: #666666;
+  font: 12px/150% Arial,Verdana,"宋体";
+}
+a{
+  text-decoration: none;
+  color: #666;
+  outline: none;
+  /*禁用a标签在移动端默认的点击高亮样式*/
+  -webkit-tap-highlight-color: transparent;
+}
+img{
+  vertical-align: top;
+  width: 100%;
+}
+input{
+  outline: none;
+  border: none;
+}
+.fl{
+  float: left
+}
+.fr{
+  float: right
+}
+.cl{
+  overflow: hidden
+}
+.pw {
+  width: 1200px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
